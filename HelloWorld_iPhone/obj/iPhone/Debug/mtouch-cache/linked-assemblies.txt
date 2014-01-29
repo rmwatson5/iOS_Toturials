@@ -1,0 +1,3 @@
+/Users/rmwatson5/Documents/Github/iOS_Toturials/HelloWorld_iPhone/obj/iPhone/Debug/mtouch-cache/Link/monotouch.dll
+/Users/rmwatson5/Documents/Github/iOS_Toturials/HelloWorld_iPhone/obj/iPhone/Debug/mtouch-cache/Link/mscorlib.dll
+/Users/rmwatson5/Documents/Github/iOS_Toturials/HelloWorld_iPhone/obj/iPhone/Debug/mtouch-cache/Link/HelloWorld_iPhone.exe
