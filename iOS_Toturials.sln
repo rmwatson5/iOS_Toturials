@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld_iPhone", "HelloW
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hello_MultiScreen_iPhone", "Hello_MultiScreen_iPhone\Hello_MultiScreen_iPhone.csproj", "{4728607A-20E7-41DD-A062-BA2B043B531A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{FDA9CE60-311A-4B9D-9AA9-9DF9FA6286ED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|iPhoneSimulator = Debug|iPhoneSimulator
@@ -39,8 +41,20 @@ Global
 		{8B57DA23-9F74-4BFA-9805-1F2C942894F3}.Release|iPhone.Build.0 = Release|iPhone
 		{8B57DA23-9F74-4BFA-9805-1F2C942894F3}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
 		{8B57DA23-9F74-4BFA-9805-1F2C942894F3}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{FDA9CE60-311A-4B9D-9AA9-9DF9FA6286ED}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
+		{FDA9CE60-311A-4B9D-9AA9-9DF9FA6286ED}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
+		{FDA9CE60-311A-4B9D-9AA9-9DF9FA6286ED}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
+		{FDA9CE60-311A-4B9D-9AA9-9DF9FA6286ED}.AppStore|iPhone.Build.0 = AppStore|iPhone
+		{FDA9CE60-311A-4B9D-9AA9-9DF9FA6286ED}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{FDA9CE60-311A-4B9D-9AA9-9DF9FA6286ED}.Debug|iPhone.Build.0 = Debug|iPhone
+		{FDA9CE60-311A-4B9D-9AA9-9DF9FA6286ED}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{FDA9CE60-311A-4B9D-9AA9-9DF9FA6286ED}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{FDA9CE60-311A-4B9D-9AA9-9DF9FA6286ED}.Release|iPhone.ActiveCfg = Release|iPhone
+		{FDA9CE60-311A-4B9D-9AA9-9DF9FA6286ED}.Release|iPhone.Build.0 = Release|iPhone
+		{FDA9CE60-311A-4B9D-9AA9-9DF9FA6286ED}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{FDA9CE60-311A-4B9D-9AA9-9DF9FA6286ED}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = Hello_MultiScreen_iPhone\Hello_MultiScreen_iPhone.csproj
+		StartupItem = Test\Test.csproj
 	EndGlobalSection
 EndGlobal
