@@ -7,8 +7,12 @@ namespace Hello_MultiScreen_iPhone
 {
 	public partial class HomeScreen : UIViewController
 	{
+		HelloWorldScreen helloWorldScreen;
+		HelloUniverseScreen helloUniverseScreen;
+
 		public HomeScreen () : base ("HomeScreen", null)
 		{
+
 		}
 
 		public override void DidReceiveMemoryWarning ()
@@ -23,7 +27,36 @@ namespace Hello_MultiScreen_iPhone
 		{
 			base.ViewDidLoad ();
 			
-			// Perform any additional setup after loading the view, typically from a nib.
+			this.btnHelloWorld.TouchUpInside += (sender, args) => {
+				if(this.helloWorldScreen == null)
+					this.helloWorldScreen = new HelloWorldScreen();
+
+				this.helloWorldScreen.Title = "Hello World!";
+
+				this.NavigationController.PushViewController(this.helloWorldScreen, true);
+			};
+
+			this.btnHelloUniverse.TouchUpInside += (sender, e) => {
+				if(this.helloUniverseScreen == null) {
+					this.helloUniverseScreen = new HelloUniverseScreen();
+				} 
+
+				this.helloUniverseScreen.Title = "Hello Universe!";
+
+				this.NavigationController.PushViewController(this.helloUniverseScreen, true);
+			};
+		}
+
+		public override void ViewWillAppear (bool animated)
+		{
+			base.ViewWillAppear (animated);
+			this.NavigationController.SetNavigationBarHidden (true, animated);
+		}
+
+		public override void ViewWillDisappear (bool animated)
+		{
+			base.ViewWillDisappear (animated);
+			this.NavigationController.SetNavigationBarHidden (false, animated);
 		}
 	}
 }

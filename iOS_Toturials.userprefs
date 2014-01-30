@@ -1,10 +1,10 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.Robert Watson’s iPhone" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Hello_MultiScreen_iPhone/Screens/HelloUniverseScreen.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Hello_MultiScreen_iPhone/Screens/HomeScreen.cs">
     <Files>
-      <File FileName="Hello_MultiScreen_iPhone/Screens/HomeScreen.cs" Line="1" Column="1" />
-      <File FileName="Hello_MultiScreen_iPhone/Screens/HelloWorldScreen.cs" Line="1" Column="1" />
-      <File FileName="Hello_MultiScreen_iPhone/Screens/HelloUniverseScreen.cs" Line="22" Column="38" />
+      <File FileName="Hello_MultiScreen_iPhone/Screens/HomeScreen.cs" Line="59" Column="71" />
+      <File FileName="Hello_MultiScreen_iPhone/AppDelegate.cs" Line="19" Column="20" />
+      <File FileName="Hello_MultiScreen_iPhone/Main.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
